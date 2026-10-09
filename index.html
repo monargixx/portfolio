@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Портфолио · 11.10</title>
+<meta name="description" content="Мудборд модельной съёмки 11 октября: план дня, локации, четыре образа и референсы.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Great+Vibes&family=Manrope:wght@300;400;500;600&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{
+  --ink:#0c0607; --ink2:#160a0c; --wine:#3d0a10; --wine2:#5e1019; --blood:#9b1622;
+  --cream:#efe5da; --muted:#a8968f; --line:rgba(239,229,218,.16);
+  --serif:'Cormorant Garamond',Georgia,serif; --script:'Great Vibes',cursive; --sans:'Manrope',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--cream);font-family:var(--sans);font-weight:300;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;width:100%;height:auto}
+a{color:inherit}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.07;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+@media(max-width:600px){.wrap{padding:0 16px}}
+.star{color:var(--cream);opacity:.75;font-size:12px}
+.rose{color:var(--cream);opacity:.22}
+.label{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.script{font-family:var(--script);font-weight:400}
+h2{font-family:var(--serif);font-weight:300;font-size:clamp(40px,7vw,84px);line-height:.95;letter-spacing:-.01em}
+h2 em{font-style:italic;color:#d9b8ae}
+section{position:relative;padding:110px 0}
+@media(max-width:600px){section{padding:72px 0}}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 1s ease,transform 1s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:40;display:flex;justify-content:space-between;align-items:center;padding:16px 24px;
+  background:linear-gradient(var(--ink),rgba(12,6,7,0));font-size:11px;letter-spacing:.24em;text-transform:uppercase}
+nav .logo{font-family:var(--script);font-size:26px;letter-spacing:0;text-transform:none}
+nav .links{display:flex;gap:22px}
+nav .links a{text-decoration:none;opacity:.7}
+nav .links a:hover{opacity:1}
+@media(max-width:760px){nav .links{display:none}}
+
+/* hero */
+.hero{min-height:100svh;display:flex;align-items:center;padding:120px 0 80px;
+  background:radial-gradient(ellipse 70% 60% at 70% 40%,var(--wine2) 0%,var(--wine) 38%,var(--ink) 78%)}
+.hero .wrap{width:100%}
+.hero h1{font-family:var(--script);font-weight:400;font-size:clamp(84px,15vw,190px);line-height:1.05;color:var(--cream);margin:10px 0 0;transform:translateX(-6px)}
+.hero .sub{font-family:var(--sans);font-size:clamp(14px,1.6vw,17px);font-weight:300;letter-spacing:.06em;color:#d9cbc2}
+.hero .meta{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:38px}
+.hero .meta div{border-top:1px solid var(--line);padding-top:10px;flex:0 1 auto}
+.hero .meta b{display:block;font-family:var(--serif);font-weight:400;font-size:24px}
+.arch{position:relative;width:260px;justify-self:center}
+.arch .frame{border-radius:200px 200px 6px 6px;overflow:hidden;border:1px solid rgba(239,229,218,.35);padding:8px}
+.arch .frame img{border-radius:192px 192px 2px 2px;height:360px;object-fit:cover;object-position:62% 40%;filter:contrast(1.05)}
+.arch .cap{text-align:center;margin-top:14px}
+.arch .s1{position:absolute;top:-14px;right:-18px;font-size:22px}
+.arch .s2{position:absolute;bottom:60px;left:-26px;font-size:14px}
+.hero .rose{position:absolute;right:4%;bottom:5%;width:90px}
+
+/* timing */
+.timing{background:var(--ink2)}
+.tl{display:grid;grid-template-columns:1.3fr .7fr;gap:56px;margin-top:56px}
+.tl ol{list-style:none;border-left:1px solid var(--line)}
+.tl li{position:relative;padding:0 0 34px 34px}
+.tl li::before{content:"✦";position:absolute;left:-7px;top:4px;font-size:12px;color:var(--cream);background:var(--ink2);line-height:1}
+.tl li.hl::before{color:#e0475a}
+.tl .t{font-family:var(--serif);font-size:34px;line-height:1;font-weight:400}
+.tl .d{color:var(--muted);margin-top:6px;max-width:440px}
+.tl .d strong{color:var(--cream);font-weight:500}
+.cards{display:grid;gap:14px;align-content:start}
+.card{border:1px solid var(--line);padding:22px 24px;background:linear-gradient(140deg,rgba(94,16,25,.35),rgba(12,6,7,0))}
+.card b{display:block;font-family:var(--serif);font-size:30px;font-weight:400;line-height:1.1;margin-top:8px}
+.card p{color:var(--muted);font-size:14px;margin-top:6px}
+@media(max-width:760px){.tl{grid-template-columns:1fr;gap:36px}}
+
+/* locations */
+.loc{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:56px}
+.loc .box{border:1px solid var(--line);padding:26px}
+.loc .num{font-family:var(--serif);font-style:italic;font-size:60px;line-height:1;color:#d9b8ae}
+.loc h3{font-family:var(--serif);font-weight:400;font-size:32px;line-height:1.1;margin:6px 0 10px}
+.loc p{color:var(--muted);font-size:15px}
+.sw{display:flex;gap:10px;margin:18px 0 18px;flex-wrap:wrap}
+.sw span{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:11px;color:var(--muted)}
+.sw i{width:44px;height:44px;border-radius:50%;border:1px solid rgba(239,229,218,.3)}
+.hall{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:18px}
+.hall img{aspect-ratio:4/5;object-fit:cover;cursor:zoom-in;transition:filter .4s}
+.hall img:hover,.grid img:hover{filter:brightness(1.12)}
+.fab{margin-top:6px;cursor:zoom-in}
+@media(max-width:860px){.loc{grid-template-columns:1fr}}
+
+/* looks */
+.look{border-top:1px solid var(--line)}
+.look.alt{background:linear-gradient(180deg,var(--ink) 0%,#1b0709 50%,var(--ink) 100%)}
+.lhead{display:grid;grid-template-columns:auto 1fr;gap:12px 40px;align-items:end}
+.lnum{font-family:var(--serif);font-weight:300;font-size:clamp(110px,18vw,220px);line-height:.75;color:transparent;-webkit-text-stroke:1px rgba(239,229,218,.55)}
+.lhead .script{font-size:clamp(44px,6vw,72px);line-height:.8;color:#d9b8ae;display:block}
+.lhead h3{font-family:var(--serif);font-weight:300;font-size:clamp(36px,5.4vw,64px);line-height:1}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{border:1px solid var(--line);border-radius:30px;padding:5px 14px;font-size:12px;letter-spacing:.06em}
+.tag.red{border-color:rgba(224,71,90,.55);color:#f0a4ad}
+.linfo{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:40px 0 34px}
+.linfo h4{font-weight:500;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.linfo ul{list-style:none}
+.linfo li{padding:9px 0;border-bottom:1px solid var(--line);font-size:15px}
+.linfo li::before{content:"✦";font-size:9px;margin-right:12px;opacity:.6;vertical-align:2px}
+@media(max-width:760px){.lhead{grid-template-columns:1fr}.linfo{grid-template-columns:1fr}}
+.grid{columns:4 220px;column-gap:10px}
+.grid figure{break-inside:avoid;margin-bottom:10px;position:relative}
+.grid img{cursor:zoom-in;transition:filter .4s}
+.grid figcaption{font-size:11px;color:var(--muted);padding:6px 2px 0;letter-spacing:.04em}
+.grid.wide{columns:1}
+
+/* mood */
+.mood{background:radial-gradient(ellipse 80% 50% at 20% 0%,rgba(94,16,25,.45),transparent 70%)}
+.mgroup{margin-top:64px}
+.mgroup .mh{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;margin-bottom:22px}
+.mgroup .mh h3{font-family:var(--serif);font-weight:300;font-style:italic;font-size:40px;line-height:1}
+.mgroup .mh p{color:var(--muted);font-size:14px}
+
+/* checklist */
+.check{background:var(--ink2)}
+.cl{columns:2 300px;column-gap:48px;margin-top:48px}
+.cl label{display:flex;gap:14px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line);cursor:pointer;break-inside:avoid;font-size:16px}
+.cl input{appearance:none;-webkit-appearance:none;flex:0 0 18px;height:18px;margin-top:3px;border:1px solid rgba(239,229,218,.5);border-radius:50%;cursor:pointer;display:grid;place-content:center}
+.cl input:checked{background:var(--blood);border-color:var(--blood)}
+.cl input:checked::after{content:"✦";font-size:9px;color:var(--cream)}
+.cl input:checked + span{opacity:.45;text-decoration:line-through}
+footer{padding:70px 0 90px;text-align:center}
+footer .script{font-size:56px;display:block;line-height:1}
+footer .rose{width:54px;margin:0 auto 14px}
+
+/* lightbox */
+.pv .hero{min-height:0}
+.lb{position:fixed;inset:0;background:rgba(8,3,4,.94);z-index:60;display:none;align-items:center;justify-content:center;padding:24px;cursor:zoom-out}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:92vh;width:auto;object-fit:contain}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="rose" viewBox="0 0 120 170">
+    <g fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round">
+      <path d="M61 50c-5-2-9 2-7 6s8 3 9-1-3-8-8-7"/>
+      <path d="M49 49c-3 9 4 17 13 15s13-11 9-18"/>
+      <path d="M51 41c-10 3-13 15-7 23s19 10 26 3 6-20-3-26"/>
+      <path d="M45 37c-14 6-15 26-3 35s31 5 34-9-5-29-19-30"/>
+      <path d="M42 70c4 10 14 15 24 13"/>
+      <path d="M60 84c-2 22 3 44-2 78"/>
+      <path d="M60 112c-13-9-25-6-30 3 11 4 22 4 30-3z"/>
+      <path d="M59 128c12-8 24-6 28 3-10 3-20 3-28-3z"/>
+      <path d="M61 98l5-4M58 145l-5-3"/>
+    </g>
+  </symbol>
+</svg>
+
+<nav>
+  <span class="logo">Portfolio</span>
+  <div class="links">
+    <a href="#plan">План</a><a href="#loc">Локации</a><a href="#l1">Образы</a><a href="#mood">Настроение</a><a href="#check">Чек-лист</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="label">Тест-съёмка ✦ модельное портфолио</div>
+      <h1>Portfolio</h1>
+      <div class="sub">четыре образа, две локации, один день</div>
+      <div class="meta">
+        <div><span class="label">Дата</span><b>вс, 11 октября</b></div>
+        <div><span class="label">Съёмка</span><b>10:00 – 14:00</b></div>
+        <div><span class="label">Образы</span><b>4</b></div>
+      </div>
+    </div>
+  </div>
+  <span class="star" style="position:absolute;top:24%;right:22%;font-size:24px">✦</span>
+  <span class="star" style="position:absolute;top:58%;right:34%;font-size:12px;opacity:.5">✦</span>
+  <span class="star" style="position:absolute;top:36%;right:9%;font-size:15px;opacity:.6">✦</span>
+  <svg class="rose"><use href="#rose"/></svg>
+</header>
+
+<section class="timing" id="plan">
+  <div class="wrap">
+    <div class="label reveal">01 ✦ тайминг</div>
+    <h2 class="reveal">План <em>дня</em></h2>
+    <div class="tl">
+      <ol class="reveal">
+        <li><div class="t">09:30</div><div class="d">Забираем оборудование, камера в аренде</div></li>
+        <li class="hl"><div class="t">10:15</div><div class="d">Уже на месте. <strong>Студия 1, циклорама</strong>: образы 01 и 02</div></li>
+        <li><div class="t">далее</div><div class="d"><strong>Зал №4</strong>: образы 03 и 04. Время переезда уточняем</div></li>
+        <li><div class="t">~14:00</div><div class="d">Заканчиваем съёмку, собираемся</div></li>
+        <li class="hl"><div class="t">15:00</div><div class="d">Сдаём оборудование</div></li>
+      </ol>
+      <div class="cards reveal">
+        <div class="card"><span class="label">Аренда камеры</span><b>09:30 – 15:30</b><p>Забрать утром, вернуть после съёмки</p></div>
+        <div class="card"><span class="label">Съёмка</span><b>10:00 – 14:00</b><p>Две локации: циклорама и зал №4</p></div>
+        <div class="card"><span class="label">Локации</span><b>2 зала</b><p>Сначала светлая циклорама, потом тёмный исторический интерьер</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="loc">
+  <div class="wrap">
+    <div class="label reveal">02 ✦ где снимаем</div>
+    <h2 class="reveal">Локации</h2>
+    <div class="loc">
+      <div class="box reveal">
+        <div class="num">i.</div>
+        <h3>Циклорама</h3>
+        <p>Чистый фон для снэпов и базы. Есть цветные фоны и тканевые подложки: можно положить ткань на пол или накинуть на модель.</p>
+        <div class="sw">
+          <span><i style="background:#f4f2ee"></i>белая</span>
+          <span><i style="background:#d9c3a6"></i>бежевая</span>
+          <span><i style="background:#c97a76"></i>розовая</span>
+          <span><i style="background:#1f5a4b"></i>изумруд</span>
+          <span><i style="background:#0b0b0b"></i>чёрная</span>
+        </div>
+        <img class="fab" src="img/st_fabrics.jpg" alt="Ткани студии">
+        <div class="tags"><span class="tag">образ 01</span><span class="tag">образ 02</span></div>
+      </div>
+      <div class="box reveal">
+        <div class="num">ii.</div>
+        <h3>Зал №4 · Studio 38/7</h3>
+        <p>Синие обои с листьями, тёмный паркет ёлочкой, резное зеркало, кушетка, стулья с вышивкой, лампы с бахромой и люстра со свечами. Тёплый свет ламп на тёмном фоне.</p>
+        <div class="hall">
+          <img src="img/st_hall1.jpg" alt="Зал №4" loading="lazy"><img src="img/st_hall2.jpg" alt="Зал №4" loading="lazy"><img src="img/st_hall3.jpg" alt="Зал №4" loading="lazy">
+          <img src="img/st_hall4.jpg" alt="Зал №4" loading="lazy"><img src="img/st_hall5.jpg" alt="Зал №4" loading="lazy"><img src="img/st_hall6.jpg" alt="Зал №4" loading="lazy">
+        </div>
+        <div class="tags"><span class="tag">образ 03</span><span class="tag">образ 04</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="look" id="l1">
+  <div class="wrap">
+    <div class="lhead reveal">
+      <div class="lnum">01</div>
+      <div><span class="script">look one</span><h3>Снэпы</h3>
+        <div class="tags"><span class="tag">циклорама</span><span class="tag">купальник</span><span class="tag">каблуки</span></div></div>
+    </div>
+    <div class="linfo reveal">
+      <div><h4>Что надеваем</h4><ul><li>Чёрный купальник</li><li>Каблуки</li></ul></div>
+      <div><h4>Не забыть</h4><ul><li>Анфас, три четверти, профиль, спина</li><li>Волосы распущены и собраны</li><li>Портрет с улыбкой</li></ul></div>
+    </div>
+    <div class="grid wide reveal"><figure><img src="img/l1_digitals.jpg" alt="Референс снэпов" loading="lazy"><figcaption>Раскладка ракурсов как у модельных агентств</figcaption></figure></div>
+  </div>
+</section>
+
+<section class="look alt" id="l2">
+  <div class="wrap">
+    <div class="lhead reveal">
+      <div class="lnum">02</div>
+      <div><span class="script">look two</span><h3>База</h3>
+        <div class="tags"><span class="tag">циклорама</span><span class="tag">белая майка</span><span class="tag">чёрная водолазка</span><span class="tag">джинсы</span></div></div>
+    </div>
+    <div class="linfo reveal">
+      <div><h4>Что надеваем</h4><ul><li>Белая майка или топ + джинсы клёш</li><li>Чёрная водолазка без рукавов + чёрные брюки</li><li>Вещи выбрать заранее</li></ul></div>
+      <div><h4>Не забыть</h4><ul><li>Разные проборы</li><li>Волосы в хвосте и в косичке</li><li>Часть кадров в ч/б</li></ul></div>
+    </div>
+    <div class="grid reveal">
+      <figure><img src="img/l2_blonde_tank.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l2_slick.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l2_blonde_jeans.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l2_bob.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l2_turtleneck.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l2_black_polar.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l2_polar.jpg" alt="" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="look" id="l3">
+  <div class="wrap">
+    <div class="lhead reveal">
+      <div class="lnum">03</div>
+      <div><span class="script">look three</span><h3>Чёрный</h3>
+        <div class="tags"><span class="tag">зал №4</span><span class="tag">чёрный топ</span><span class="tag">серая мини</span><span class="tag">чёрные колготки</span><span class="tag red">+ макияж</span></div></div>
+    </div>
+    <div class="linfo reveal">
+      <div><h4>Что надеваем</h4><ul><li>Чёрная футболка в рубчик и драпированный чёрный топ</li><li>Серая мини-юбка</li><li>Чёрные колготки</li></ul></div>
+      <div><h4>Не забыть</h4><ul><li>Добавить макияж</li><li>Позы на полу, у двери, у штор</li><li>Свеча как деталь в кадре</li></ul></div>
+    </div>
+    <div class="grid reveal">
+      <figure><img src="img/l3_flatlay.jpg" alt="" loading="lazy"><figcaption>вещи образа</figcaption></figure>
+      <figure><img src="img/l3_door.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_candle.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_curtain1.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_smoke.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_stairs.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_upside.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_curtain2.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_lace.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_slip.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l3_squat.jpg" alt="" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="look alt" id="l4">
+  <div class="wrap">
+    <div class="lhead reveal">
+      <div class="lnum">04</div>
+      <div><span class="script">look four</span><h3>Бордо</h3>
+        <div class="tags"><span class="tag">зал №4</span><span class="tag">бордовый трикотаж</span><span class="tag">белые акценты</span><span class="tag red">+ красная тушь</span></div></div>
+    </div>
+    <div class="linfo reveal">
+      <div><h4>Что надеваем</h4><ul><li>Бордовый трикотажный костюм с золотыми пуговицами</li><li>Тонкий чёрный ремень</li><li>Белая деталь с рюшей, белые гольфы или колготки</li></ul></div>
+      <div><h4>Не забыть</h4><ul><li>Красная тушь</li><li>Сидя на полу, на кушетке, у зеркала</li><li>Тёплый свет ламп</li></ul></div>
+    </div>
+    <div class="grid reveal">
+      <figure><img src="img/l4_flatlay.jpg" alt="" loading="lazy"><figcaption>вещи образа</figcaption></figure>
+      <figure><img src="img/l4_burgtee.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_pink.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_redbows.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_plaid.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_satin.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_whitesweater.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_reading.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_chair.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_bluecarpet.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="img/l4_floral.jpg" alt="" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="mood" id="mood">
+  <div class="wrap">
+    <div class="label reveal">03 ✦ как я это вижу</div>
+    <h2 class="reveal">Настро<em>ение</em></h2>
+    <div class="mgroup">
+      <div class="mh reveal"><h3>Красный акцент</h3><p>колготки, обувь, одежда одного цвета. Ближе всего к образу 04</p></div>
+      <div class="grid reveal">
+        <figure><img src="img/m_red_bg.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_rack.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_glass.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_top.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_fur.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_lying.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_boots.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_wig.jpg" alt="" loading="lazy"></figure>
+      </div>
+    </div>
+    <div class="mgroup">
+      <div class="mh reveal"><h3>На полу и на мебели</h3><p>ковры, кушетки, кресла, взгляд сверху. Для зала №4</p></div>
+      <div class="grid reveal">
+        <figure><img src="img/m_sofa_book.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_carpet_top.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_pink_dress.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_fur_sofa.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_lying_rug.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_pink_armchair.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_red_armchair.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_green_sofa.jpg" alt="" loading="lazy"></figure>
+        <figure><img src="img/m_upside_pink.jpg" alt="" loading="lazy"></figure>
+      </div>
+    </div>
+    <div class="mgroup">
+      <div class="mh reveal"><h3>Доп. эффекты</h3><p>по желанию: ч/б формат, глубокие тени, тёплая плёночная тонировка</p></div>
+      <div class="grid reveal" style="columns:3 240px">
+        <figure><img src="img/m_bw_eyes.jpg" alt="" loading="lazy"><figcaption>ч/б, крупный план</figcaption></figure>
+        <figure><img src="img/m_bw_suit.jpg" alt="" loading="lazy"><figcaption>ч/б, контраст</figcaption></figure>
+        <figure><img src="img/m_sepia.jpg" alt="" loading="lazy"><figcaption>тень и тёплая тонировка</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="check" id="check">
+  <div class="wrap">
+    <div class="label reveal">04 ✦ перед выходом</div>
+    <h2 class="reveal">Чек-<em>лист</em></h2>
+    <div class="cl reveal" id="cl">
+      <label><input type="checkbox"><span>Зарядить аккумуляторы, очистить карты памяти</span></label>
+      <label><input type="checkbox"><span>Забрать технику в 09:30</span></label>
+      <label><input type="checkbox"><span>Купальник и каблуки (образ 01)</span></label>
+      <label><input type="checkbox"><span>Белая майка, джинсы, чёрная водолазка, чёрные брюки (образ 02)</span></label>
+      <label><input type="checkbox"><span>Чёрный топ, серая юбка, чёрные колготки (образ 03)</span></label>
+      <label><input type="checkbox"><span>Бордовый костюм, ремень, белые детали (образ 04)</span></label>
+      <label><input type="checkbox"><span>Резинки и шпильки для хвоста и косички</span></label>
+      <label><input type="checkbox"><span>Макияж и красная тушь</span></label>
+      <label><input type="checkbox"><span>Портрет с улыбкой</span></label>
+      <label><input type="checkbox"><span>Разные проборы</span></label>
+      <label><input type="checkbox"><span>Часть кадров в ч/б</span></label>
+      <label><input type="checkbox"><span>Сдать технику (аренда до 15:30)</span></label>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <svg class="rose"><use href="#rose"/></svg>
+  <span class="script">see you on Sunday</span>
+  <div class="label" style="margin-top:14px">11.10.2026 ✦ Санкт-Петербург</div>
+</footer>
+
+<div class="lb" id="lb"><img alt=""></div>
+
+<script>
+// плавное появление
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+if(location.search.includes('preview')){document.documentElement.classList.add('pv');document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));const y=new URLSearchParams(location.search).get('y');if(y){document.body.style.transform='translateY(-'+y+'px)'}}
+// увеличение фото
+const lb=document.getElementById('lb'),lbi=lb.querySelector('img');
+document.querySelectorAll('.grid img,.hall img,.fab').forEach(img=>img.addEventListener('click',()=>{lbi.src=img.src;lb.classList.add('on')}));
+lb.addEventListener('click',()=>lb.classList.remove('on'));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('on')});
+// чек-лист запоминается в браузере
+const boxes=[...document.querySelectorAll('#cl input')];
+let saved=[];try{saved=JSON.parse(localStorage.getItem('pf-check')||'[]')}catch(e){}
+boxes.forEach((b,i)=>{b.checked=!!saved[i];b.addEventListener('change',()=>{try{localStorage.setItem('pf-check',JSON.stringify(boxes.map(x=>x.checked)))}catch(e){}})});
+</script>
+</body>
+</html>
